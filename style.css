@@ -1,0 +1,11 @@
+:root { --bg: #FFF8EC; --fg: #2B2B33; --muted: #6A6670; --line: #EADFCB; --accent: #D9620F; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1B1A1F; --fg: #EDEAE4; --muted: #A9A4AE; --line: #34313A; --accent: #F08A3A; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif; line-height: 1.8; }
+main { max-width: 720px; margin: 0 auto; padding: 48px max(20px, env(safe-area-inset-left)) 80px; }
+h1 { font-size: 26px; line-height: 1.4; margin: 0 0 8px; }
+h2 { font-size: 18px; margin: 36px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+p, li { font-size: 15px; }
+.lead { color: var(--muted); margin-top: 0; }
+a { color: var(--accent); }
+footer { margin-top: 48px; color: var(--muted); font-size: 13px; }

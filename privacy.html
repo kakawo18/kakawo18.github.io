@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜youtube-uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="lead">youtube-uploader（以下「本ツール」）における情報の取り扱いについて定めます。</p>
+
+  <h2>1. 本ツールの目的と利用者</h2>
+  <p>本ツールは、運営者が制作した動画を運営者自身の YouTube チャンネルに投稿するための個人用ツールです。
+     利用者は運営者本人のみで、第三者に提供していません。</p>
+
+  <h2>2. 取得・利用する情報</h2>
+  <p>本ツールは、運営者本人の Google アカウントの認可により、YouTube Data API を通じて次の操作だけを行います。</p>
+  <ul>
+    <li>動画のアップロード（権限: <code>youtube.upload</code>）— 動画ファイル、タイトル、説明文、タグ、サムネイルの送信</li>
+    <li>チャンネル情報の読み取り（権限: <code>youtube.readonly</code>）— 接続確認のため、チャンネル名と動画数を表示</li>
+  </ul>
+  <p>上記以外の Google アカウントの情報（メール、連絡先、視聴履歴など）は取得しません。</p>
+
+  <h2>3. 情報の保存と管理</h2>
+  <p>認可によって得られる認証情報（リフレッシュトークン等）は、運営者が管理する実行環境の設定にのみ保存し、
+     本ツールの目的以外には使用しません。取得した情報を第三者へ提供、販売、共有することはありません。</p>
+
+  <h2>4. Google API サービスのユーザーデータに関するポリシー</h2>
+  <p>本ツールによる Google API から受け取った情報の使用と他のアプリへの転送は、
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>
+     （Limited Use の要件を含む）に従います。
+     また、本ツールは <a href="https://www.youtube.com/t/terms">YouTube 利用規約</a> と
+     <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a> に基づく YouTube API サービスを利用しています。</p>
+
+  <h2>5. 認可の取り消し</h2>
+  <p>本ツールへのアクセス許可は、<a href="https://myaccount.google.com/permissions">Google アカウントのサードパーティ アクセス設定</a>
+     からいつでも取り消せます。取り消すと、本ツールは YouTube へ投稿できなくなります。</p>
+
+  <h2>6. 改定</h2>
+  <p>本ポリシーを改定する場合は、このページを更新します。</p>
+
+  <footer>制定日: 2026年11月3日 ／ 運営: kakawo18</footer>
+</main>
+</body>
+</html>
